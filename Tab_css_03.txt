@@ -1,0 +1,29 @@
+.tab-links {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-links button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab-links button:hover {
+    background-color: #ddd;
+}
+
+.tab-links button.active {
+    background-color: #ccc;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+}

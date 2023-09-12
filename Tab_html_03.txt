@@ -1,0 +1,24 @@
+<div class="tab-section">
+    <!-- Tab Links -->
+    <div class="tab-links">
+        <button class="tab-link" onclick="openTab(event, 'Overview')">Webinar Overview</button>
+        <button class="tab-link" onclick="openTab(event, 'Agenda')">Agenda</button>
+        <button class="tab-link" onclick="openTab(event, 'Speaker')">Speaker</button>
+    </div>
+
+    <!-- Tab Contents -->
+    <div id="Overview" class="tab-content">
+        <h2>Webinar Overview</h2>
+        <p>Place your overview content here.</p>
+    </div>
+
+    <div id="Agenda" class="tab-content">
+        <h2>Agenda</h2>
+        <p>Place your agenda content here.</p>
+    </div>
+
+    <div id="Speaker" class="tab-content">
+        <h2>Speaker</h2>
+        <p>Place your speaker information here.</p>
+    </div>
+</div>
